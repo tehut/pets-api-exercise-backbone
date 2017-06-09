@@ -11,12 +11,12 @@ Create a single page application, using backbone, to interact with the [Pets API
 
 ### Requirements
 
-Utilize the available endpoints of the [Pets API](https://github.com/AdaGold/pets_api) to implement the following features:
+Utilize the available endpoints of the [Pets API](https://github.com/AdaGold/pets_api) to implement the following features (prioritize bolded items):
 
-- Show a list of pets
+- **Show a list of pets**
 - Show information on a specific pet
-- Create a new pet
-- Delete a pet
+- **Create a new pet**
+- **Delete a pet**
 - Update if a pet has been vaccinated
   - Hint: Read more about the [checkbox input element ](https://stackoverflow.com/questions/7851868/whats-the-proper-value-for-a-checked-attribute-of-an-html-checkbox)
 
