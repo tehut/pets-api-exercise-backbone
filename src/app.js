@@ -1,12 +1,10 @@
-// /src/app.js
-
-// Import jQuery & Underscore
 import $ from 'jquery';
 import _ from 'underscore';
 
-// ready to go
+import PetList from 'app/collections/pet_list';
+import PetListView from 'app/views/pet_list_view';
+
 $(document).ready(function() {
 
-  $('section.main-content').append('<p>Hello World!</p>');
 
 });
