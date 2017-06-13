@@ -5,6 +5,7 @@ import Backbone from 'backbone';
 var PetView = Backbone.View.extend({
   initialize: function(params) {
     this.template = params.template;
+  this.petListElement = this.$('#pet-list');
     this.listenTo(this.model, 'change', this.render);
   },
 

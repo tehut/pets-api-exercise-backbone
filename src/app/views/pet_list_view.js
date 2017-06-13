@@ -39,7 +39,6 @@ var PetListView = Backbone.View.extend({
     // Make sure the list in the DOM is empty
     // before we start appending items
     console.log("HERE");
-    // console.log(petViewList);
     this.listElement.empty();
 
     // Loop through the data assigned to this view
